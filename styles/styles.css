@@ -97,6 +97,21 @@ body {
     margin-left: auto;
 }
 
+.navigation-user .navigation-item {
+    margin-right: 16px;
+}
+
+.navigation-user .navigation-item:last-child {
+    margin: 0;
+}
+
+.navigation-button {
+    min-width: 16px;
+    min-height: 16px;
+    margin: 0;
+    padding: 6px 16px;
+}
+
 .navigation-link {
 	display: block;
 	padding: 8px 16px;
@@ -123,6 +138,8 @@ body {
 }
 
 .navigation-phone {
+    display: block;
+    padding: 6px 0;
     font-weight: 700;
     line-height: 20px;
     color: #2D3440;

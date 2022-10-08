@@ -205,16 +205,24 @@ body {
 .slider-buttons-list {
     margin: 0;
     padding: 0;
+    list-style-type: none;
+}
+
+.slider-button {
+    min-width: 38px;
+    min-height: 38px;
 }
 
 .slider-pagination-list {
     margin: 0;
     padding: 0;
+    list-style-type: none;
 }
 
 .slider-social-list {
     margin: 0;
     padding: 0;
+    /* list-style-type: none; */
 }
 
 /* Banners */

@@ -168,6 +168,10 @@ body {
 
 /* Slider */
 
+.page-slider {
+    margin-bottom: 80px;
+}
+
 .slider-title {
     font-size: 36px;
     margin-top: 136px;
@@ -223,6 +227,7 @@ body {
     display: flex;
     margin: 0;
     padding: 0;
+    width: 104px;
     list-style-type: none;
 }
 

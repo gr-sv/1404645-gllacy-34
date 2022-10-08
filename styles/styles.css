@@ -220,9 +220,24 @@ body {
 }
 
 .slider-social-list {
+    display: flex;
     margin: 0;
     padding: 0;
-    /* list-style-type: none; */
+    list-style-type: none;
+}
+
+.slider-social-item {
+    margin-right: 16px;
+}
+
+.slider-social-item:nth-child(3n) {
+    margin: 0;
+}
+
+.slider-social-link {
+    display: block;
+    min-width: 24px;
+    min-height: 24px;
 }
 
 /* Banners */

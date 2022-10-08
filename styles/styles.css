@@ -225,6 +225,7 @@ body {
 
 .slider-social-list {
     display: flex;
+    flex-wrap: wrap;
     margin: 0;
     padding: 0;
     width: 104px;

@@ -51,6 +51,7 @@ body {
     font-size: 16px;
     line-height: 20px;
     text-align: center;
+    padding: 12px 32px;
 }
 
 .title {
@@ -169,11 +170,14 @@ body {
 
 .slider-title {
     font-size: 36px;
+    margin-top: 136px;
+    margin-bottom: 24px;
 }
 
 .slider-list {
     margin: 0;
     padding: 0;
+    list-style-type: none;
 }
 
 .slider-item {
@@ -187,6 +191,7 @@ body {
 
 .slider-text {
     margin: 0;
+    margin-bottom: 48px;
     font-size: 18px;
     line-height: 24px;
 }

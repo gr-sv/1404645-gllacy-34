@@ -248,7 +248,14 @@ body {
 
 /* Banners */
 
+.banners {
+    margin-bottom: 80px;
+}
+
 .banners-title {
+    margin: 0 auto;
+    margin-bottom: 55px;
+    max-width: 434px;
     text-align: center;
 }
 
@@ -257,11 +264,18 @@ body {
     justify-content: space-between;
     margin: 0;
     padding: 0;
+    list-style-type: none;
 }
 
 .banners-item {
     width: 570px;
     background-color: #FF7799;
+}
+
+.banner-description {
+    max-width: 328px;
+    margin: 36px;
+    margin-right: auto;
 }
 
 .banner-one {
@@ -282,13 +296,17 @@ body {
     font-weight: 700;
     font-size: 24px;
     line-height: 30px;
+    margin-bottom: 28px;
 }
 
 .banner-text {
     margin: 0;
+    margin-bottom: 28px;
 }
 
 .banner-link {
+    display: block;
+    max-width: 176px;
     background-color: #FCFCFC;
     color: #2D3440;
     text-decoration: none;

@@ -314,20 +314,37 @@ body {
 
 /* Popular products */
 
+.popular-products {
+    margin-bottom: 50px;
+}
+
 .popular-products-title {
+    margin: 0 auto;
+    margin-bottom: 55px;
+    max-width: 527px;
     text-align: center;
 }
 
 .popular-products-list {
     display: flex;
-    justify-content: space-between;
     margin: 0;
     padding: 0;
+    list-style-type: none;
+    flex-wrap: wrap;
 }
 
 .popular-product-item {
-    background-color: #FCFCFC;
     max-width: 270px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.popular-product-item:nth-child(4n) {
+    margin: 0;
+}
+
+.popular-product-wrapper {
+    background-color: #FCFCFC;
 }
 
 .product-image {

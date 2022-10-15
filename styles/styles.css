@@ -473,8 +473,15 @@ body {
     width: 570px;
 }
 
+.subscribe-wrapper {
+    margin: 6px;
+    padding: 26px;
+    background-color: #FFFFFF;
+}
+
 .subscribe-text {
     margin: 0;
+    margin-bottom: 42px;
     color: #565C66;
 }
 

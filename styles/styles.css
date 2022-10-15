@@ -501,6 +501,7 @@ body {
 
 .delivery {
     display: flex;
+    margin-bottom: 80px;
     background-color: #FCFCFC;
     background-image: url(../images/main/delivery.jpeg);
     background-size: 100% auto;
@@ -509,23 +510,32 @@ body {
 }
 
 .delivery-text-wrapper {
+    margin-top: 167px;
+    margin-bottom: 163px;
+    margin-left: 100px;
     max-width: 371px;
     margin-left: 100px;
 }
 
-.delivery-form-wrapper {
-    max-width: 500px;
-    margin-right: 64px;
-    margin-left: auto;
-}
-
-.delivery-form {
-    background-color: #FCFCFC;
+.delivery-title {
+    margin-bottom: 24px;
 }
 
 .delivery-text {
     margin: 0;
     color: #565C66;
+}
+
+.delivery-form-wrapper {
+    margin: 64px;
+    margin-left: auto;
+    padding: 40px;
+    max-width: 420px;
+    background-color: #FCFCFC;
+}
+
+.delivery-form .delivery-text {
+    margin-bottom: 32px;
 }
 
 .delivery-form-data {

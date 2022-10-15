@@ -420,6 +420,7 @@ body {
 .sections-wrapper {
     display: flex;
     justify-content: space-between;
+	margin-bottom: 80px;
 }
 
 /* Blog */
@@ -429,17 +430,25 @@ body {
     background-image: url(../images/main/blog.png);
     background-size: 100% auto;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left;
     width: 570px;
 }
 
 .blog-text {
     margin: 0;
+	margin-top: 32px;
+	margin-left: 32px;
+	max-width: 170px;
     line-height: 20px;
     color: #565C66;
 }
 
 .blog-link {
+	display: block;
+	margin-top: 12px;
+	margin-bottom: 67px;
+	margin-left: 32px;
+	max-width: 303px;
     color: #2D3440;
     background-color: #FCFCFC;
     text-align: center;

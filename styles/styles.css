@@ -572,8 +572,10 @@ body {
 }
 
 .contacts-wrapper {
+    margin: 64px;
+    padding: 40px;
     background-color: #FCFCFC;
-    max-width: 350px;
+    max-width: 263px;
     margin-left: 64px;
 }
 
@@ -583,10 +585,12 @@ body {
 
 .contacts-text {
     margin: 0;
+    margin-bottom: 12px;
     color: #565C66;
 }
 
 .contacts-address-place {
+    margin-bottom: 24px;
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
@@ -603,6 +607,7 @@ body {
 }
 
 .contacts-time {
+    margin-bottom: 32px;
     font-size: 14px;
     line-height: 20px;
 }

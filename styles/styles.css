@@ -654,8 +654,15 @@ body {
 }
 
 .footer-menu-list {
+    display: flex;
+    flex-wrap: wrap;
     margin: 0;
     padding: 0;
+    list-style-type: none;
+}
+
+.footer-menu-item {
+    margin-right: 24px;
 }
 
 .footer-menu-link {

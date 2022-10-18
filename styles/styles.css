@@ -617,7 +617,8 @@ body {
 .page-footer {
     width: 1170px;
     margin: 0 auto;
-    padding: 44px 14px 48px 4px;
+    padding-top: 44px;
+    padding-bottom: 48px;
     display: flex;
 }
 
@@ -625,6 +626,7 @@ body {
 
 .footer-social {
     max-width: 120px;
+    margin-left: 4px;
     margin-right: 299px;
 }
 
@@ -687,8 +689,11 @@ body {
 }
 
 .footer-who-did-it {
+    display: block;
     font-size: 12px;
     line-height: 16px;
+    margin: 0;
+    margin-top: 14px;
 }
 
 .footer-htmlacademy-link {

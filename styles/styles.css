@@ -234,16 +234,12 @@ body {
 
 .slider-social-item {
     margin-right: 16px;
+    min-width: 24px;
+    min-height: 24px;
 }
 
 .slider-social-item:nth-child(3n) {
     margin: 0;
-}
-
-.slider-social-link {
-    display: block;
-    min-width: 24px;
-    min-height: 24px;
 }
 
 /* Banners */
@@ -514,7 +510,6 @@ body {
     margin-bottom: 163px;
     margin-left: 100px;
     max-width: 371px;
-    margin-left: 100px;
 }
 
 .delivery-title {
@@ -622,6 +617,7 @@ body {
 .page-footer {
     width: 1170px;
     margin: 0 auto;
+    padding: 44px 14px 48px 4px;
     display: flex;
 }
 
@@ -633,8 +629,22 @@ body {
 }
 
 .footer-social-list {
+    display: flex;
+    flex-wrap: wrap;
     margin: 0;
     padding: 0;
+    list-style-type: none;
+}
+
+.footer-social-item {
+    min-width: 24px;
+    min-height: 24px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+
+.footer-social-item:nth-child(3n) {
+    margin-right: 0;
 }
 
 /* Footer menu */
